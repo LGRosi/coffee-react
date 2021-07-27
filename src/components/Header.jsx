@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './styles/Header.css';
+import "./styles/Header.css";
 import latteLogo from "../images/latte.svg";
 
 class Header extends React.Component {
@@ -21,10 +21,26 @@ class Header extends React.Component {
               Coffee
             </Link>
             <ul className="d-flex justify-content-end mt-2 ulBotonera">
-                <Link to="/home"><li>Home</li></Link>
-                <Link to="/about"><li className="mx-4">About</li></Link>
-                <Link to="/products"><li>Products</li></Link>
-                <Link to="/contact"><li className="mx-4">Contact</li></Link>
+              <Link to="/home">
+                <button type="button" class="btn">
+                  Home
+                </button>
+              </Link>
+              <Link className="subrayado" to="/about">
+                <button className="mx-5" type="button" class="btn">
+                  About
+                </button>
+              </Link>
+              <Link className="subrayado" to="/products">
+                <button type="button" class="btn">
+                  Products
+                </button>
+              </Link>
+              <Link className="subrayado" to="/contact">
+                <button className="mx-5" type="button" class="btn">
+                  Contact
+                </button>
+              </Link>
             </ul>
           </nav>
         </div>
