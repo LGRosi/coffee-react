@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/Header.css";
 import latteLogo from "../images/latte.svg";
+import carrito from "../images/Carrito.svg";
 
 class Header extends React.Component {
   render() {
@@ -20,26 +21,33 @@ class Header extends React.Component {
               />
               Coffee
             </Link>
-            <ul className="d-flex justify-content-end mt-2 ulBotonera">
+            <ul className="mt-3 ulBotonera">
               <Link to="/home">
-                <button type="button" class="btn">
+                <button className="btn" type="button">
                   Home
                 </button>
               </Link>
-              <Link className="subrayado" to="/about">
-                <button className="mx-5" type="button" class="btn">
+              <Link to="/about">
+                <button className="mx-lg-4 btn" type="button">
                   About
                 </button>
               </Link>
-              <Link className="subrayado" to="/products">
-                <button type="button" class="btn">
+              <Link to="/products">
+                <button className="btn" type="button">
                   Products
                 </button>
               </Link>
-              <Link className="subrayado" to="/contact">
-                <button className="mx-5" type="button" class="btn">
+              <Link to="/contact">
+                <button className="mx-lg-4 btn" type="button">
                   Contact
                 </button>
+              </Link>
+              <Link to="/carrito">
+                <img
+                  src={carrito}
+                  width="20"
+                  alt="Carrito de compras"
+                />
               </Link>
             </ul>
           </nav>
