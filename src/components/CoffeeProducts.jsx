@@ -34,7 +34,7 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 border-bottom">
                       <h3 className="h5 ColorH3">Guatemala Antigua</h3>
                       <p className="card-text mt-3">
-                        MEDIUM ROAST | Coffee beans Mildly spicy cocoa aroma
+                        MEDIUM ROAST | <span className="text-muted">Coffee beans Mildly spicy cocoa aroma</span>
                       </p>
                       <div className="row">
                         <div className="col-6">
@@ -67,7 +67,7 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 border-bottom">
                       <h3 className="h5 ColorH3">Colombia</h3>
                       <p className="card-text mt-3">
-                        MEDIUM ROAST | Coffee beans Intense flavor and nutty
+                        MEDIUM ROAST | <span className="text-muted">Coffee beans Intense flavor and nutty</span>
                         nuance
                       </p>
                       <div className="row">
@@ -101,7 +101,7 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 border-bottom">
                       <h3 className="h5 ColorH3">Kenya</h3>
                       <p className="card-text mt-3">
-                        MEDIUM ROAST | Coffee beans Juicy, intense and complex
+                        MEDIUM ROAST | <span className="text-muted">Coffee beans Juicy, intense and complex</span>
                       </p>
                       <div className="row">
                         <div className="col-6">
@@ -138,7 +138,7 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 border-bottom">
                       <h3 className="h5 ColorH3">Sumatra</h3>
                       <p className="card-text mt-3">
-                        DARK ROAST | Coffee beans Earthy and herbaceous
+                        DARK ROAST | <span className="text-muted">Coffee beans Earthy and herbaceous</span>
                       </p>
                       <div className="row">
                         <div className="col-6">
@@ -171,7 +171,7 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 border-bottom">
                       <h3 className="h5 ColorH3">Verona</h3>
                       <p className="card-text mt-3">
-                        DARK ROAST | Coffee grains Black cocoa, roasted sweet
+                        DARK ROAST | <span className="text-muted">Coffee grains Black cocoa, roasted sweet</span>
                       </p>
                       <div className="row">
                         <div className="col-6">
@@ -204,7 +204,7 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 pt-0 border-bottom">
                       <h3 className="h5 ColorH3">Espresso Roast</h3>
                       <p className="card-text mt-3">
-                        DARK ROAST | Coffee beans Aromatic and caramelized
+                        DARK ROAST | <span className="text-muted">Coffee beans Aromatic and caramelized</span>
                       </p>
                       <div className="row">
                         <div className="col-6">
