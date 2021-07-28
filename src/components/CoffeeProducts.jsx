@@ -34,7 +34,10 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 border-bottom">
                       <h3 className="h5 ColorH3">Guatemala Antigua</h3>
                       <p className="card-text mt-3">
-                        MEDIUM ROAST | <span className="text-muted">Coffee beans Mildly spicy cocoa aroma</span>
+                        MEDIUM ROAST |{" "}
+                        <span className="text-muted">
+                          Coffee beans Mildly spicy cocoa aroma
+                        </span>
                       </p>
                       <div className="row">
                         <div className="col-6">
@@ -52,7 +55,12 @@ class CoffeeProducts extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <button type="button" className="btn btn-light w-100 border border-secondary">Buy</button>
+                      <button
+                        type="button"
+                        className="btn btn-light w-100 border border-secondary"
+                      >
+                        Buy
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -67,8 +75,10 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 border-bottom">
                       <h3 className="h5 ColorH3">Colombia</h3>
                       <p className="card-text mt-3">
-                        MEDIUM ROAST | <span className="text-muted">Coffee beans Intense flavor and nutty</span>
-                        nuance
+                        MEDIUM ROAST |{" "}
+                        <span className="text-muted">
+                          Coffee beans Intense flavor and nutty nuance
+                        </span>
                       </p>
                       <div className="row">
                         <div className="col-6">
@@ -86,7 +96,12 @@ class CoffeeProducts extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <button type="button" className="btn btn-light w-100 border border-secondary">Buy</button>
+                      <button
+                        type="button"
+                        className="btn btn-light w-100 border border-secondary"
+                      >
+                        Buy
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -101,7 +116,10 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 border-bottom">
                       <h3 className="h5 ColorH3">Kenya</h3>
                       <p className="card-text mt-3">
-                        MEDIUM ROAST | <span className="text-muted">Coffee beans Juicy, intense and complex</span>
+                        MEDIUM ROAST |{" "}
+                        <span className="text-muted">
+                          Coffee beans Juicy, intense and complex
+                        </span>
                       </p>
                       <div className="row">
                         <div className="col-6">
@@ -119,14 +137,19 @@ class CoffeeProducts extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <button type="button" className="btn btn-light w-100 border border-secondary">Buy</button>
+                      <button
+                        type="button"
+                        className="btn btn-light w-100 border border-secondary"
+                      >
+                        Buy
+                      </button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="col-12">
+            <div className="col-12 mt-4">
               <div className="row">
                 <div className="col-4">
                   <div className="card border-0" width="18rem">
@@ -138,7 +161,10 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 border-bottom">
                       <h3 className="h5 ColorH3">Sumatra</h3>
                       <p className="card-text mt-3">
-                        DARK ROAST | <span className="text-muted">Coffee beans Earthy and herbaceous</span>
+                        DARK ROAST |{" "}
+                        <span className="text-muted">
+                          Coffee beans Earthy and herbaceous
+                        </span>
                       </p>
                       <div className="row">
                         <div className="col-6">
@@ -156,7 +182,12 @@ class CoffeeProducts extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <button type="button" className="btn btn-light w-100 border border-secondary">Buy</button>
+                      <button
+                        type="button"
+                        className="btn btn-light w-100 border border-secondary"
+                      >
+                        Buy
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -171,7 +202,10 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 border-bottom">
                       <h3 className="h5 ColorH3">Verona</h3>
                       <p className="card-text mt-3">
-                        DARK ROAST | <span className="text-muted">Coffee grains Black cocoa, roasted sweet</span>
+                        DARK ROAST |{" "}
+                        <span className="text-muted">
+                          Coffee grains Black cocoa, roasted sweet
+                        </span>
                       </p>
                       <div className="row">
                         <div className="col-6">
@@ -189,7 +223,12 @@ class CoffeeProducts extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <button type="button" className="btn btn-light w-100 border border-secondary">Buy</button>
+                      <button
+                        type="button"
+                        className="btn btn-light w-100 border border-secondary"
+                      >
+                        Buy
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -204,7 +243,10 @@ class CoffeeProducts extends React.Component {
                     <div className="card-body m-auto w-75 pt-0 border-bottom">
                       <h3 className="h5 ColorH3">Espresso Roast</h3>
                       <p className="card-text mt-3">
-                        DARK ROAST | <span className="text-muted">Coffee beans Aromatic and caramelized</span>
+                        DARK ROAST |{" "}
+                        <span className="text-muted">
+                          Coffee beans Aromatic and caramelized
+                        </span>
                       </p>
                       <div className="row">
                         <div className="col-6">
@@ -222,7 +264,12 @@ class CoffeeProducts extends React.Component {
                           </div>
                         </div>
                       </div>
-                      <button type="button" className="btn btn-light w-100 border border-secondary">Buy</button>
+                      <button
+                        type="button"
+                        className="btn btn-light w-100 border border-secondary"
+                      >
+                        Buy
+                      </button>
                     </div>
                   </div>
                 </div>

@@ -12,9 +12,9 @@ class Home extends React.Component {
           <Banner />
         </section>
 
-        <main>
-          <section className="container my-5 pt-5">
-            <article className="row">
+        <main className="container my-5 pt-5">
+          <section className="row">
+            <article>
               <CoffeeProducts />
             </article>
           </section>
