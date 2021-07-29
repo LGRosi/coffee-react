@@ -12,7 +12,7 @@ class CoffeeDescription extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container mt-5">
+        <div className="container my-5">
           <div className="row">
             <div className="col-12 d-flex justify-content-center">
               <img src={GranosCafe} width="30" alt="Logo de granos de café" />
