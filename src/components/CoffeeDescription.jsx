@@ -51,9 +51,9 @@ class CoffeeDescription extends React.Component {
                         <div className="col-12">
                           <p className="mb-0 h6">Coffees</p>
                           <p className="text-muted">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Nemo quisquam temporibus cum recusandae
-                            expedita
+                            It is an elaborate, beer drink prepared from roasted
+                            coffee beans, the seeds of the berries of certain
+                            species.
                           </p>
                         </div>
                       </div>
@@ -69,9 +69,9 @@ class CoffeeDescription extends React.Component {
                         <div className="col-12">
                           <p className="mb-0 h6">Elaboration</p>
                           <p className="text-muted">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Nemo quisquam temporibus cum recusandae
-                            expedita
+                            The plantation is the first stage of the coffee
+                            production process. A natural cycle begins that will
+                            see the seeds grow.
                           </p>
                         </div>
                       </div>
@@ -93,9 +93,9 @@ class CoffeeDescription extends React.Component {
                         <div className="col-12">
                           <p className="mb-0 h6">Tasting</p>
                           <p className="text-muted">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Nemo quisquam temporibus cum recusandae
-                            expedita
+                            In roasting, the coffee gets its most characteristic
+                            flavor and aroma. The grain is subjected to high
+                            temperatures.
                           </p>
                         </div>
                       </div>
@@ -111,9 +111,9 @@ class CoffeeDescription extends React.Component {
                         <div className="col-12">
                           <p className="mb-0 h6">Grain</p>
                           <p className="text-muted">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Nemo quisquam temporibus cum recusandae
-                            expedita
+                            Milling reduces the grain to powder through the use
+                            of a mill. A more intense aroma and flavor is
+                            obtained.
                           </p>
                         </div>
                       </div>
@@ -129,9 +129,9 @@ class CoffeeDescription extends React.Component {
                         <div className="col-12">
                           <p className="mb-0 h6">Milk</p>
                           <p className="text-muted">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Nemo quisquam temporibus cum recusandae
-                            expedita
+                            Correctly steamed milk has a creamy texture and,
+                            since it does not heat more than 60 °, it is
+                            naturally sweet.
                           </p>
                         </div>
                       </div>
