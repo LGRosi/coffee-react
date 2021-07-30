@@ -2,8 +2,7 @@ import React from "react";
 import Banner from "../components/Banner";
 import CoffeeProducts from "../components/CoffeeProducts";
 import CoffeeDescription from "../components/CoffeeDescription";
-import Footer from "../components/Footer";
-import '../components/styles/Footer.css';
+import "../components/styles/Footer.css";
 
 class Home extends React.Component {
   render() {
@@ -27,10 +26,6 @@ class Home extends React.Component {
             <CoffeeDescription />
           </article>
         </section>
-
-        <footer className="mt-5 footer">
-          <Footer />
-        </footer>
       </React.Fragment>
     );
   }
