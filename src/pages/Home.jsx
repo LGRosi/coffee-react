@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../components/Banner";
+import Gallery from "../components/Gallery";
 import CoffeeDescription from "../components/CoffeeDescription";
 import "../components/styles/Footer.css";
 
@@ -12,11 +13,19 @@ class Home extends React.Component {
           <Banner />
         </section>
 
-        <section className="container my-5 pt-5">
-          <article className="row">
-            <CoffeeDescription />
-          </article>
+        <section className="container">
+          <div className="row">
+            <Gallery />
+          </div>
         </section>
+
+        <main className="container my-5 pt-5">
+          <section className="row">
+            <article>
+              <CoffeeDescription />
+            </article>
+          </section>
+        </main>
       </React.Fragment>
     );
   }
