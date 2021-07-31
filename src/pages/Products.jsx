@@ -1,11 +1,18 @@
 import React from "react";
+import CoffeeProducts from "../components/CoffeeProducts";
 
 class Products extends React.Component {
   render() {
     return (
-        <div>
-            <h1>Soy el Products</h1>
-        </div>
+      <React.Fragment>
+        <main className="container my-5 pb-5">
+          <section className="row">
+            <article>
+              <CoffeeProducts />
+            </article>
+          </section>
+        </main>
+      </React.Fragment>
     );
   }
 }
