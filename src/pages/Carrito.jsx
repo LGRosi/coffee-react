@@ -1,6 +1,4 @@
 import React from "react";
-import CreditCard from "../components/CreditCard";
-import FormCreditCard from "../components/FormCreditCard";
 
 
 class Carrito extends React.Component {
@@ -9,12 +7,7 @@ class Carrito extends React.Component {
       <React.Fragment>
         <section className="container">
           <div className="row">
-            <div className="col-6">
-              <CreditCard />
-            </div>
-            <div className="col-6">
-              <FormCreditCard />
-            </div>
+            <h1>El carrito</h1>
           </div>
         </section>
       </React.Fragment>

@@ -39,7 +39,7 @@
 }
 
 .formulario-tarjeta .ccv {
-	min-width: 100px;
+	min-width: 50px;
 }
 
 .formulario-tarjeta .grupo-select {
@@ -52,7 +52,7 @@
 	-webkit-appearance: none;
 }
 
-.formulario-tarjeta .grupo-select i {
+.formulario-tarjeta .grupo-select .i {
 	position: absolute;
 	color: #CED6E0;
 	top: 18px;

@@ -26,19 +26,19 @@ class CreditCard extends React.Component {
                   <div className="datos">
                     <div className="grupo">
                       <p className="label">Card number</p>
-                      <p className="numero">**** **** **** ****</p>
+                      <p className="numero">{this.props.cardNumber}</p>
                     </div>
                     <div className="flexbox">
                       <div className="grupo">
                         <p className="label">Cardholder Name</p>
-                        <p className="nombre">LUCAS GONZALO ROSI</p>
+                        <p className="nombre">{this.props.cardholderName}</p>
                       </div>
 
                       <div className="grupo">
                         <p className="label">Expiration</p>
                         <p className="expiracion">
-                          <span className="mes">MM</span> /{" "}
-                          <span className="year">YY</span>
+                          <span className="mes">{this.props.mm}</span> /{" "}
+                          <span className="year">{this.props.yy}</span>
                         </p>
                       </div>
                     </div>
@@ -56,7 +56,7 @@ class CreditCard extends React.Component {
                     </div>
                     <div className="grupo">
                       <p className="label">CCV</p>
-                      <p className="ccv"></p>
+                      <p className="ccv">{this.props.ccv}</p>
                     </div>
                   </div>
                   <p className="leyenda">
