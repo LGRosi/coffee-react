@@ -6,7 +6,7 @@ import NFC from "../images/nfc.png";
 
 class CreditCard extends React.Component {
   render() {
-    const GiroTarjeta = () => {
+    this.handleClick = (e) => {
       const tarjeta = document.querySelector(".tarjeta");
       tarjeta.classList.toggle("active");
     };
@@ -16,12 +16,7 @@ class CreditCard extends React.Component {
         <section className="container my-5">
           <div className="row">
             <div className="col-12 d-flex justify-content-center">
-              <div
-                className="tarjeta"
-                onClick={() => {
-                  GiroTarjeta();
-                }}
-              >
+              <div className="tarjeta" onClick={this.handleClick}>
                 <div className="delantera">
                   <div className="logo-marca">
                     <img src={NFC} className="nfc" alt="Logo de NFC" />
@@ -31,12 +26,12 @@ class CreditCard extends React.Component {
                   <div className="datos">
                     <div className="grupo">
                       <p className="label">Card number</p>
-                      <p className="numero">#### #### #### ####</p>
+                      <p className="numero">**** **** **** ****</p>
                     </div>
                     <div className="flexbox">
                       <div className="grupo">
                         <p className="label">Cardholder Name</p>
-                        <p className="nombre">LUCAS ROSI</p>
+                        <p className="nombre">LUCAS GONZALO ROSI</p>
                       </div>
 
                       <div className="grupo">
