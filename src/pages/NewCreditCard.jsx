@@ -10,6 +10,7 @@ class NewCreditCard extends React.Component {
       mm: "",
       yy: "",
       ccv: "",
+      focus: "",
     },
   };
 
@@ -30,9 +31,11 @@ class NewCreditCard extends React.Component {
             <div className="col-6">
               <CreditCard
                 cardNumber={this.state.form.cardNumber || "**** **** **** ****"}
-                cardholderName={this.state.form.cardholderName || "PABLO ANTONIO RODRIGUEZ"}
-                mm={this.state.form.mm || "09"}
-                yy={this.state.form.yy || "28"}
+                cardholderName={
+                  this.state.form.cardholderName || "FULL NAME"
+                }
+                mm={this.state.form.mm || "MM"}
+                yy={this.state.form.yy || "YY"}
                 ccv={this.state.form.ccv || "***"}
               />
             </div>

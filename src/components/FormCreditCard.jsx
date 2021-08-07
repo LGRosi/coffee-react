@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/FormCreditCard.css";
 import DropDown from "../images/dropdown.png";
 
+
 class FormCreditCard extends React.Component {
   render() {
     return (
@@ -13,18 +14,12 @@ class FormCreditCard extends React.Component {
               <p>Add your credit card for faster checkout process</p>
             </div>
             <div className="col-12">
-              <form
-                action=""
-                id="formulario-tarjeta"
-                className="formulario-tarjeta"
-              >
+              <form action="/" className="formulario-tarjeta">
                 <div className="grupo">
                   <input
+                    className="inputNumero"
                     type="text"
-                    id="inputNumero"
                     placeholder="**** **** **** ****"
-                    // maxlength="19"
-                    // autocomplete="off"
                     onChange={this.props.onChange}
                     name="cardNumber"
                     value={this.props.formValues.cardNumber}
@@ -34,10 +29,7 @@ class FormCreditCard extends React.Component {
                   <label>Cardholder name</label>
                   <input
                     type="text"
-                    id="inputNombre"
-                    // maxlength="19"
-                    // autocomplete="off"
-                    placeholder="PABLO ANTONIO RODRIGUEZ"
+                    placeholder="FULL NAME"
                     onChange={this.props.onChange}
                     name="cardholderName"
                     value={this.props.formValues.cardholderName}
@@ -48,10 +40,8 @@ class FormCreditCard extends React.Component {
                     <label>Expiration</label>
                     <div className="flexbox">
                       <div className="grupo-select">
-                        <select name="mes" id="selectMes">
+                        <select name="selectMounth" className="selectMounth">
                           <option
-                            // disabled
-                            // selected
                             onChange={this.props.onChange}
                             name="mm"
                             value={this.props.formValues.mm}
@@ -67,10 +57,8 @@ class FormCreditCard extends React.Component {
                         />
                       </div>
                       <div className="grupo-select">
-                        <select name="year" id="selectYear">
+                        <select name="year" className="selectYear">
                           <option
-                            // disabled
-                            // selected
                             onChange={this.props.onChange}
                             name="yy"
                             value={this.props.formValues.yy}
@@ -92,16 +80,15 @@ class FormCreditCard extends React.Component {
                     <label>CCV</label>
                     <input
                       type="text"
-                      id="inputCCV"
                       placeholder="***"
-                      // maxlength="3"
+
                       onChange={this.props.onChange}
                       name="ccv"
                       value={this.props.formValues.ccv}
                     />
                   </div>
                 </div>
-                <button type="submit" className="btn-enviar">
+                <button type="button" className="btn-enviar">
                   Confirm
                 </button>
               </form>
@@ -114,3 +101,18 @@ class FormCreditCard extends React.Component {
 }
 
 export default FormCreditCard;
+
+
+
+
+ // Validación Mes:
+    // this.handleMounth = (e) => {
+    //   const tarjeta = document.querySelector(".tarjeta");
+    //   // const selectMounth = document.querySelector(".selectMounth");
+    //   for (let i = 1; i <= 12; i++) {
+    //     let opcion = document.createElement("option");
+    //     opcion.value = i;
+    //     opcion.innerText = i;
+    //     tarjeta.appendChild(opcion);
+    //   }
+    // };
