@@ -1,7 +1,5 @@
 import React from "react";
 import "./styles/FormCreditCard.css";
-import DropDown from "../images/dropdown.png";
-
 
 class FormCreditCard extends React.Component {
   render() {
@@ -40,38 +38,46 @@ class FormCreditCard extends React.Component {
                     <label>Expiration</label>
                     <div className="flexbox">
                       <div className="grupo-select">
-                        <select name="selectMounth" className="selectMounth">
-                          <option
-                            onChange={this.props.onChange}
-                            name="mm"
-                            value={this.props.formValues.mm}
-                          >
-                            MM
-                          </option>
+                        <select
+                          className="form-select form-select-lg mb-3"
+                          aria-label=".form-select-lg example"
+                          name="mm"
+                          onChange={this.props.onChange}
+                          value={this.props.formValues.mm}
+                        >
+                          <option className="MM">MM</option>
+                          <option value="01">01</option>
+                          <option value="02">02</option>
+                          <option value="03">03</option>
+                          <option value="04">04</option>
+                          <option value="05">05</option>
+                          <option value="06">06</option>
+                          <option value="07">07</option>
+                          <option value="08">08</option>
+                          <option value="09">09</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
                         </select>
-                        <img
-                          src={DropDown}
-                          className="i"
-                          width="20"
-                          alt="Drop down arrow"
-                        />
                       </div>
                       <div className="grupo-select">
-                        <select name="year" className="selectYear">
-                          <option
-                            onChange={this.props.onChange}
-                            name="yy"
-                            value={this.props.formValues.yy}
-                          >
-                            YY
-                          </option>
+                        <select
+                          className="form-select form-select-lg mb-3"
+                          aria-label=".form-select-lg example"
+                          name="yy"
+                          onChange={this.props.onChange}
+                          value={this.props.formValues.yy}
+                        >
+                          <option value="YY">YY</option>
+                          <option value="21">2021</option>
+                          <option value="22">2022</option>
+                          <option value="23">2023</option>
+                          <option value="24">2024</option>
+                          <option value="25">2025</option>
+                          <option value="26">2026</option>
+                          <option value="27">2027</option>
+                          <option value="28">2028</option>
                         </select>
-                        <img
-                          src={DropDown}
-                          className="i"
-                          width="20"
-                          alt="Drop down arrow"
-                        />
                       </div>
                     </div>
                   </div>
@@ -81,7 +87,6 @@ class FormCreditCard extends React.Component {
                     <input
                       type="text"
                       placeholder="***"
-
                       onChange={this.props.onChange}
                       name="ccv"
                       value={this.props.formValues.ccv}
@@ -101,18 +106,3 @@ class FormCreditCard extends React.Component {
 }
 
 export default FormCreditCard;
-
-
-
-
- // Validación Mes:
-    // this.handleMounth = (e) => {
-    //   const tarjeta = document.querySelector(".tarjeta");
-    //   // const selectMounth = document.querySelector(".selectMounth");
-    //   for (let i = 1; i <= 12; i++) {
-    //     let opcion = document.createElement("option");
-    //     opcion.value = i;
-    //     opcion.innerText = i;
-    //     tarjeta.appendChild(opcion);
-    //   }
-    // };

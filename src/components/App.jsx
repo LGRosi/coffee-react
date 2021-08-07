@@ -9,7 +9,7 @@ import NewCreditCard from "../pages/NewCreditCard";
 import NotFound from '../pages/NotFound';
 import Layout from "./Layout";
 
-function App() {
+function App () {
   return (
     <BrowserRouter>
       <Layout>
@@ -20,6 +20,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/carrito" component={Carrito} />
           <Route exact path="/newcreditcard" component={NewCreditCard} />
+
           <Route component={NotFound} />
         </Switch>
       </Layout>

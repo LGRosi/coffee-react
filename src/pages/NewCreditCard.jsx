@@ -2,6 +2,7 @@ import React from "react";
 import CreditCard from "../components/CreditCard";
 import FormCreditCard from "../components/FormCreditCard";
 
+
 class NewCreditCard extends React.Component {
   state = {
     form: {
@@ -10,7 +11,6 @@ class NewCreditCard extends React.Component {
       mm: "",
       yy: "",
       ccv: "",
-      focus: "",
     },
   };
 
@@ -47,6 +47,7 @@ class NewCreditCard extends React.Component {
             </div>
           </div>
         </section>
+
       </React.Fragment>
     );
   }
