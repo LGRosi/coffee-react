@@ -1,11 +1,19 @@
 import React from "react";
+import ContactForm from "../components/ContactForm";
 
 class Contact extends React.Component {
   render() {
     return (
-        <div>
-            <h1>Soy el Contact</h1>
-        </div>
+      <React.Fragment>
+        <section className="container">
+            <div className="row">
+              <div className="col-6"></div>
+              <div className="col-6">
+                  <ContactForm />
+              </div>
+            </div>
+        </section>
+      </React.Fragment>
     );
   }
 }
